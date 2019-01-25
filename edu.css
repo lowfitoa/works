@@ -1,6 +1,16 @@
-.all {
-  margin-left: 25%;
-  margin-right: 25%;
+.allbox {
+    max-width: 450px;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1); }
+@media(max-width:800px){
+  .allbox {
+    box-shadow: none;
+    border-radius: 0;
+    background-color: white;
+
+  }
 }
 img {
   width: 225px;
@@ -55,6 +65,7 @@ input[type=text]:focus {
 }
 .aa {
   text-align: right;
+  padding-bottom: 50px;
 }
 a {
   text-decoration: none;
