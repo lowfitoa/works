@@ -1,3 +1,4 @@
+
 .allbox {
     max-width: 450px;
     margin: 0px auto;
@@ -25,6 +26,8 @@ h1 {
   border-bottom: 1px solid #efefef;
   padding-left: 80px;
   padding-bottom: 16px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
 }
 form {
   padding-left: 85px;
@@ -57,6 +60,11 @@ input[type=text]:focus {
   border-bottom: 0.5px solid #efefef;
   padding: 10px;
 }
+label {
+    padding: 5px;
+    padding-left: 27px;
+    font-size: 16px;
+}
 #lap {
   padding: 10px;
   border: 10px;
@@ -83,6 +91,7 @@ i {
     left: -38px;
     bottom: 5px;
 }
+
 button {
   width: 70px;
   height: 30px;
