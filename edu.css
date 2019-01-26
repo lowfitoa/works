@@ -111,6 +111,6 @@ button:hover {
   background-color: #ce7100;
   color: white;
 }
-button:focus {
-  border: 4px solid #fe8c00;
+button:active {
+    border: 10px solid #fe8c00;
 }
