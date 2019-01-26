@@ -5,22 +5,8 @@
   display:grid;
   grid-template-columns: 260px 1fr;
 }
-#grid2 {
-  display:grid;
-  grid-template-columns: 80px 1fr;
-}
-.starfont{
-  font-size: 26px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  color: #fe8c00;
-}
-.top {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
+
+
 @media(max-width:1020px){
   .leftside {
     display: none;
@@ -60,19 +46,17 @@ ul {
   font-size: 15px;
   padding: 4px;
 }
-li > a > i {
+ a > li > i {
   font-size: 30px;
     color: #fe8c00;
     padding: 3px;
 }
-.lili {
+a > li > span {
   text-align: right;
 }
 
 a {
   text-decoration: none;
-}
-
 }
 
 .sideshadow {
@@ -90,9 +74,28 @@ a {
   padding-right: 32px;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
+#grid2 {
+  display:grid;
+  grid-template-columns: 80px 1fr;
+}
+.starfont{
+  font-size: 26px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fe8c00;
+}
+h2 {
+  font-size: 20px;
+}
 .pp {
   color: #999;
   font-weight: 300;
   font-size: 0.81rem;
   display: block;
+}
+.top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
