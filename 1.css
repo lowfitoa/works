@@ -5,16 +5,22 @@
   display:grid;
   grid-template-columns: 260px 1fr;
 }
-
-
 @media(max-width:1020px){
-  .leftside {
-    display: none;
-  }
-  #grid {
-    display: grid;
-    grid-template-columns: auto;
-  }
+    .leftside {
+      display: none;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: auto;
+    }
+}
+.userid {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  text-align: center;
 }
 .leftside {
   border-right: 1px solid #efefef;
@@ -45,18 +51,24 @@ ul {
 .sub-menu {
   font-size: 15px;
   padding: 4px;
+  padding-left: 10px;
+}
+.vvv {
+  padding: 4px;
 }
  a > li > i {
-  font-size: 30px;
+  font-size: 20px;
     color: #fe8c00;
     padding: 3px;
 }
 a > li > span {
   text-align: right;
+    text-decoration: none;
+    color: black;
 }
-
-
-
+.fa-arrow-right {
+  text-align: right;
+}
 a {
   text-decoration: none;
 }
