@@ -32,7 +32,7 @@
 .leftside {
   border-right: 1px solid #efefef;
   padding-right: 16px;
-  padding-left: 16px;
+  padding-left: 6px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
 }
 .logo {
@@ -149,4 +149,11 @@ h2 {
 }
 .top {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.divdiv {
+  text-align: center;
+font-size: 20px;
+}
+.divdivdiv {
+  color: #fe8c00;
 }
